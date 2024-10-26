@@ -1,0 +1,28 @@
+h1 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center; 
+}
+
+.B {
+    text-align: center;
+}
+
+p {
+    width: 800px;
+    margin: 0 auto; 
+}
+
+#main {
+    color: black;
+    background-color: lightblue;
+    width: 500px;
+} 
+
+.A {
+    border: 5px solid black;
+    padding: 20px 20px 20px 20px;
+    background-color: rgb(150, 150, 230);
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gauri's Personal Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1 style = "color:rgb(87, 17, 79); font-size: 24px;">Welcome to Gauri's Personal Website!</h1>
+
+    <h3>A little more about me!</h3>
+    <p class = 'A'> Hi! My name is Gauri Chasia and I am a third year studying Data Science and Math! 
+        I am very interested in Machine Learning and data analysis and want to pursue research 
+        after completing undergrad. A few of my passions outside of school include reading mystery books, 
+        learning new things about astronomy, and also listening to music. My favorite authors in the 
+        mystery genre right now are Freida Mccfaden and Riley Sager. Their books are very fun to read and 
+        have amazing plot twists every single time! I recently started a research project about astronomy and am very 
+        interested specifically in exoplanets. I want to continue to analyze features about exoplanets so we can find 
+        the exoplanets that closely resemble Earth. Finally, I like listening to various Kpop groups such as BTS and 
+        Blackpink to name a few. Other than that I like to try new cafes and restaurants around Boston and hangout 
+        with my friends. My favorite thing to do is go out to eat dinner with a few close friends and then wrap up 
+        the night by going on a long night walk around campus. Some other classes I am taking this semester include 
+        Fourier Series and PDE’s, Machine Learning and Data Mining 1, and Database Design. 
+    </p>
+
+    
+    <h3>How to Contact Me!</h3>
+    <a id = 'main' href= "mailto: chasia.g@northeastern.edu"> Email! </a> 
+   
+
+    <p>
+    <button id = 'navigationButton'>Click this to learn more about me!</button>
+    <script>
+        const navigationButton = document.getElementById('navigationButton')
+        navigationButton.addEventListener('click', function(){ 
+            window.location.href = 'new.html';
+        }
+
+        )
+    </script>
+    </p>
+
+
+    <p>
+    <img src="bts-m.jpg" alt="" width = 500>
+    </p> 
+    
+</body>
+</html>
